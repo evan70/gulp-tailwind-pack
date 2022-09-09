@@ -103,31 +103,31 @@ Create empty component by name in `src/components` folder.
 By default generates only `*.pug`, `*.scss` and `*.js` files.
 
 ```
-$ bem create component-name
+$ yarn bem create component-name
 ```
 
 If you need to create only one file type, use the `-T` flag:
 
 ```
-$ bem create component-name -T pug
+$ yarn bem create component-name -T pug
 ```
 
 If you need to remove one or more default file types, use the `-n` flag:
 
 ```
-$ bem create component-name -n js
+$ yarn bem create component-name -n js
 ```
 
 If you need to add another file type to your component folder, use the `-t` flag:
 
 ```
-$ bem create component-name -t md
+$ yarn bem create component-name -t md
 ```
 
 You can also combine flags:
 
 ```
-$ bem create component-name -n js -t yml
+$ yarn bem create component-name -n js -t yml
 ```
 
 ## Copyright
